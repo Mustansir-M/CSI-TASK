@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJCSI TASK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="logo">DJCSI</h1>
+        <ul class="links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li class="events"><a href="#">Contact Us</a></li>
+        </ul>
+        <img src="./list.jpg" alt="" class="menu">
+    </nav>
+     <header>
+        <div class="head-content">
+            <h2>DJCSI represents Computer Society of India at the college level and it is affiliated with Dwarkadas J. Sanghvi College of Engineering.</h2>
+            <div class="line"></div>
+            <h1>Awarded the Best student chapter at Trinity,2014</h1>
+            <a href="#" class="events">Events</a>
+        </div>
+     </header>  
+     <script>
+        const menubtn=document.querySelector('.menu')
+        const navlinks=document.querySelector('.links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+     </script>
+     
+
+
+
+
+
+
+</body>
+</html>
